@@ -1,0 +1,14 @@
+#372 - Tyrone
+
+owner = BA7
+controller = BA7
+culture = irish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Dungannon"
+is_city = yes
+add_core = BA7

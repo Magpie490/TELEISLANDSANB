@@ -1,0 +1,14 @@
+#4365 - Mann
+
+owner = BC2
+controller = BC2
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Castletown"
+is_city = yes
+add_core = BC2

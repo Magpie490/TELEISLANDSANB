@@ -1,0 +1,14 @@
+#142 - Corfu
+
+owner = BD4
+controller = BD4
+culture = greek
+religion = orthodox
+capital = "Corfu"
+trade_goods = wine
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 3
+is_city = yes
+add_core = BD4

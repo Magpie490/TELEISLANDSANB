@@ -1,0 +1,15 @@
+#245 - Yorkshire - East Riding
+
+owner = BC9
+controller = BC9
+culture = english
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 1
+capital = "Hull"
+is_city = yes
+add_core = BA1
+add_core = BC9

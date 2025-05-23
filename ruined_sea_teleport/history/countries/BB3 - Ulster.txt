@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = tanistry_reform
+government_rank = 1
+technology_group = tech_cannorian
+religion = catholic
+primary_culture = irish
+capital = 8040	# Ulster
+setup_vision = yes
+1000.1.2 = { set_country_flag = avoids_colonist_settlement_growth }
+
+1444.1.1 = { #Magginis clan gained control of much of this province following the collapse of English control of the Earldom of Ulster. Date and name fictional as we haven't found a list of these Magginises.
+	monarch = {
+		name = "Art Roe"
+		dynasty = "Magginis"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,14 @@
+#4119 - Sligo
+
+owner = BB5
+controller = BB5
+culture = irish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Sligo"
+is_city = yes
+add_core = BB5

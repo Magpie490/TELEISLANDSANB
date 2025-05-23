@@ -1,0 +1,14 @@
+#373 - Meath
+
+owner = BB2
+controller = BB2
+add_core = BB2
+culture = irish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+capital = "Dublin"
+is_city = yes

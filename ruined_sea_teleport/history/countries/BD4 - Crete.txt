@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = reformed_byzantine_monarchy_reform
+government_rank = 1
+technology_group = tech_cannorian
+primary_culture = greek
+religion = orthodox
+capital = 8062	# Heraklion
+fixed_capital = 8062 # Cannot move capital away from this province & no power cost to move to it
+setup_vision = yes
+
+1443.1.1 = {
+	monarch = {
+		name = "Demetrios II"
+		dynasty = "Palaiologos"
+		dip = 2
+		adm = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,19 @@
+# 2986 - Cagliari
+
+latent_trade_goods = {
+	coal
+}
+
+owner = BD2
+controller = BD2
+culture = sardinian 
+religion = catholic 
+hre = no 
+base_tax = 3
+base_production = 3
+trade_goods = copper
+base_manpower = 1
+capital = "Cagliari" 
+is_city = yes # Estimated 
+add_core = BD2
+

@@ -1,0 +1,70 @@
+government = monarchy
+add_government_reform = tanistry_reform
+government_rank = 1
+technology_group = tech_cannorian
+primary_culture = irish
+religion = catholic
+capital = 8042	# Waterford
+setup_vision = yes
+1000.1.2 = { set_country_flag = avoids_colonist_settlement_growth }
+
+1375.1.1 = {
+	monarch = {
+		name = "Art"
+		dynasty = "MacMurrough-Kavanagh"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1397.1.1 = {
+	heir = {
+		name = "Donnchad"
+		monarch_name = "Donnchad"
+		dynasty = "MacMurrough-Kavanagh"
+		birth_date = 1397.1.1
+		death_date = 1478.1.1 
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1417.1.1 = {
+	monarch = {
+		name = "Donnchad"
+		dynasty = "MacMurrough-Kavanagh"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = naive_personality
+}
+
+1458.1.1 = {
+	heir = {
+		name = "Murchad"
+		monarch_name = "Murchad IV"
+		dynasty = "MacMurrough-Kavanagh"
+		birth_date = 1458.1.1
+		death_date = 1512.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+
+1478.1.1 = {
+	monarch = {
+		name = "Murchad IV"
+		dynasty = "MacMurrough-Kavanagh"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,15 @@
+#253 - Western Isles
+
+owner = BC3
+controller = BC3
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Stornoway"
+is_city = yes
+add_core = BA3
+add_core = BC3

@@ -1,0 +1,24 @@
+#366 - The Canarias
+
+culture = berber
+religion = animism
+capital = "Las Palmas"
+trade_goods = unknown
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+
+
+1402.1.1 = {
+	owner = BD3
+	controller = BD3
+	add_core = BD3
+	is_city = yes
+	religion = catholic
+	culture = castillian	
+	trade_goods = sugar
+}

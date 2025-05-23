@@ -1,0 +1,15 @@
+#4373 - Devon
+
+owner = BA8
+controller = BA8
+culture = cornish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = damestear
+base_manpower = 2
+capital = "Plymouth"
+is_city = yes
+add_core = BA1
+add_core = BA8

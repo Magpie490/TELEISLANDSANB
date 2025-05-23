@@ -1,0 +1,15 @@
+#320 - Rhodes
+
+owner = BD4 		# Knights of St. John Hospitaler of Jerusalem
+controller = BD4
+culture = greek
+religion = orthodox
+capital = "Rhodes"
+trade_goods = fish
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = BD4
+
+

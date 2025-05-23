@@ -1,0 +1,17 @@
+#248 - Lothian + Fife + Sterling
+
+owner = BA3
+controller = BA3
+culture = scottish
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = cloth
+base_manpower = 4
+capital = "Edinburgh"
+is_city = yes
+add_core = BA3
+
+extra_cost = 16
+center_of_trade = 2

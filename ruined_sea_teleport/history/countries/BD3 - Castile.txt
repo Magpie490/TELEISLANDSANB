@@ -1,0 +1,52 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = castillian
+religion = catholic
+technology_group = tech_cannorian
+capital = 4565 # Toledo
+national_focus = MIL
+setup_vision = yes
+
+1418.6.2 = {
+	monarch = {
+		name = "Juan II"
+		dynasty = "de Trastámara"
+		birth_date = 1405.3.6
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+	queen = {
+		country_of_origin = ARA
+		name = "Maria"
+		dynasty = "de Trastámara"
+		birth_date = 1396.1.1
+		death_date = 1445.2.18
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1422.1.1 = { leader = {	name = "Alvaro de Luna"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1453.6.2 } }
+
+
+1425.1.5 = {
+	heir = {
+		name = "Enrique"
+		monarch_name = "Enrique IV"
+		dynasty = "de Trastámara"
+		birth_date = 1425.1.5
+		death_date = 1474.12.11
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = infertile_personality
+	add_ruler_personality = naive_personality
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = well_advised_personality
+}

@@ -1,0 +1,15 @@
+#234 - Hampshire + Wiltshire
+
+owner = BA1
+controller = BA1
+culture = english
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Salisbury"
+is_city = yes
+add_core = BA1
+#Salisbury and Winchester Cathedrals

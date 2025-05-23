@@ -1,0 +1,15 @@
+#163 - Crete
+
+owner = BD4
+controller = BD4
+culture = greek
+religion = orthodox
+capital = "Heraklion"
+trade_goods = wine
+hre = no
+base_tax = 5 
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = BD4
+

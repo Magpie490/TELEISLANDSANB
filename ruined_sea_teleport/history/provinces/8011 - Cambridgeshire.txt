@@ -1,0 +1,16 @@
+#4370 - Cambridgeshire
+#Includes Cambridgeshire+Huntingdonshire+Bedfordshire
+
+owner = BA1
+controller = BA1
+culture = english
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = cloth
+base_manpower = 2
+capital = "Cambridge"
+is_city = yes
+add_core = BA1
+seat_in_parliament = yes

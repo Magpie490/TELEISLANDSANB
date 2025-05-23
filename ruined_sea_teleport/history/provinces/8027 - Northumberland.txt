@@ -1,0 +1,21 @@
+#246 - Northumberland
+#+Durham
+
+latent_trade_goods = {
+	coal
+}
+
+owner = BC9
+controller = BC9
+culture = english
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Newcastle"
+fort_15th = yes
+is_city = yes
+add_core = BA1
+add_core = BC9

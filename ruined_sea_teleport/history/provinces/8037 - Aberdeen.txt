@@ -1,0 +1,14 @@
+#251 - Aberdeen
+
+owner = BA3
+controller = BA3
+culture = scottish #Mix of Highland and Lowland Scotts 
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Aberdeen"
+is_city = yes
+add_core = BA3

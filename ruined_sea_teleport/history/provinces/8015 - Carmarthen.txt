@@ -1,0 +1,15 @@
+#4366 - Pembrokeshire+Camartenshire+Cardiganshire
+
+owner = BA8
+controller = BA8
+culture = welsh
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Carmarthen"
+is_city = yes
+add_core = BA1
+add_core = BA8 

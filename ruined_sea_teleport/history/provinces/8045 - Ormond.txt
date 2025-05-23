@@ -1,0 +1,14 @@
+#4377 - Ormond
+
+owner = BB8
+controller = BB8
+culture = irish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 1
+capital = "Kilkenny"
+is_city = yes
+add_core = BB8

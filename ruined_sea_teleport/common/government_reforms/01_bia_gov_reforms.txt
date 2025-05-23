@@ -1,0 +1,262 @@
+
+english_monarchy = {
+	icon = "british_queen"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			have_had_reform = english_monarchy
+			tag = BA1
+			was_tag = BA1
+		}
+	}
+	lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 15
+	nation_designer_trigger = {
+		OR = {
+			has_dlc = "Common Sense"
+			has_dlc = "Domination"
+		}
+	}
+	legacy_equivalent = english_monarchy_legacy
+	start_territory_to_estates = 0.3
+	modifiers = {
+		governing_capacity = 50
+		legitimacy = 0.5
+		global_unrest = -1
+		max_absolutism = -30
+		nobles_influence_modifier = -0.1
+	}
+
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+}
+
+polynesian_tribe = {
+	icon = "tribal_council"
+	allow_normal_conversion = no
+	potential = {
+		culture_group = pacific
+		has_reform = polynesian_tribe
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = -10
+	native_mechanic = no
+	allow_migration = yes
+	fixed_rank = 1
+	lock_level_when_selected = yes
+	modifiers = {
+		global_manpower_modifier = 0.2
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+polynesian_kingdom = {
+	icon = "tribal_council"
+	allow_normal_conversion = no
+	potential = {
+		culture_group = pacific
+		has_reform = polynesian_kingdom
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		naval_forcelimit_modifier = 0.2
+		range = 0.2
+		vassal_income = 0.2
+		reduced_liberty_desire = 20
+		governing_capacity_modifier = -0.5
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+indep_daimyo = {
+	icon = "samurai"
+	allow_normal_conversion = no
+	potential = {
+		NOT = { has_country_flag = formed_japan_flag }
+		OR = {
+			culture_group = japanese_g
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = indep_daimyo
+			}
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		culture_group = japanese_g
+	}
+	legacy_equivalent = indep_daimyo_legacy
+	maintain_dynasty = yes
+
+	modifiers = {
+		land_morale = 0.1
+		infantry_power = 0.1
+		amount_of_samurai = 5
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+tanistry_reform = {
+	icon = "tanistry"
+	allow_normal_conversion = yes
+	potential = {
+		primary_culture = irish
+	}
+	nation_designer_trigger = {
+		primary_culture = irish
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	modifiers = {
+		morale_damage = 0.05
+		same_culture_advisor_cost = -0.1
+		nobles_loyalty_modifier = 0.05
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		custom_attributes = {
+			has_ruler_election = yes
+			can_elect_from_relative = yes
+		}
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+irish_highkingdom_reform = {
+	icon = "irish_highkingdom"
+	allow_normal_conversion = yes
+	potential = {
+		has_dlc = "Domination"
+		OR = {
+			has_reform = irish_highkingdom_reform
+			has_unlocked_government_reform = { government_reform = irish_highkingdom_reform }
+			have_had_reform = irish_highkingdom_reform
+		}
+	}
+	trigger = {
+		primary_culture = irish
+	}
+	nation_designer_trigger = {
+		primary_culture = irish
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 15
+	modifiers = {
+		all_estate_loyalty_equilibrium = 0.05
+		morale_damage = 0.05
+		same_culture_advisor_cost = -0.15
+		global_manpower_modifier = 0.15
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		custom_attributes = {
+			has_ruler_election = yes
+			can_elect_from_relative = yes
+		}
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+reformed_byzantine_monarchy_reform = {
+	icon = "byzantine_rule"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			has_reform = reformed_byzantine_monarchy_reform
+			have_had_reform = reformed_byzantine_monarchy_reform
+		}
+	}
+	nation_designer_cost = 30
+	valid_for_nation_designer = yes
+	modifiers = {
+		global_autonomy = -0.05
+		culture_conversion_cost = -0.2
+		years_of_nationalism = -5
+		yearly_absolutism = 1
+		num_of_pronoiars = 1
+		allow_client_states = yes
+	}
+	
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+			NOT = { has_dlc = "King of Kings" }
+		}
+		has_parliament = yes
+	}
+	conditional = {
+		allow = { has_dlc = "King of Kings" }
+		custom_attributes = {
+			enables_pronoias = yes 
+		}
+	}
+}
+scottish_monarchy_reform = {
+	icon = "scottish_kingdom"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			primary_culture = scottish
+			primary_culture = highland_scottish
+		}
+	}
+	nation_designer_trigger = {
+		OR = {
+			primary_culture = scottish
+			primary_culture = highland_scottish
+		}
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	modifiers = {
+		nobles_influence_modifier = -0.1
+		diplomatic_reputation = 1 
+		defensiveness = 0.1
+	}
+	
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+

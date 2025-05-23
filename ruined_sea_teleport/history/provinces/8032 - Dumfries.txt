@@ -1,0 +1,15 @@
+#4362 - West March (Dumfriesshire+Kircudbrightshire)
+
+owner = BA3
+controller = BA3
+culture = scottish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Dumfries"
+fort_15th = yes
+is_city = yes
+add_core = BA3

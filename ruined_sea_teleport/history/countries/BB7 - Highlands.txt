@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = highland_scottish
+religion = catholic
+technology_group = tech_cannorian
+capital = 8038 # Inverness
+setup_vision = yes
+
+
+1000.1.2 = { set_country_flag = avoids_colonist_settlement_growth }
+
+1412.1.1 = {
+	monarch = {
+		name = "Ian"
+		dynasty = MacDonald
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}

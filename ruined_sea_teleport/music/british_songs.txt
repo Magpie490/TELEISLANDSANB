@@ -1,0 +1,16 @@
+
+song = {
+	name = "Rule Britannia"
+	
+	chance = {
+		modifier = {
+			factor = 0			
+			NOT = { culture_group = british } 
+		}
+		modifier = {
+			factor = 5			
+			culture_group = british
+			NOT = { culture = irish } 
+		}			
+	}
+}

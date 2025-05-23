@@ -1,0 +1,226 @@
+country_decisions = {
+	british_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_great_britain_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = BB0 }
+			NOT = { tag = PAP }
+			OR = {
+				culture_group = british
+				primary_culture = highland_scottish
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4008		# London
+				province_id = 4012		# Oxfordshire
+				province_id = 4687		# Lothian
+				province_id = 4690		# Aberdeen
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 4012		# Oxfordshire
+			owns_core_province = 4687		# Lothian
+			owns_core_province = 4690		# Aberdeen
+			owns_core_province = 4008		# London
+			4008 = {							# London
+				is_state = yes
+			}
+		}
+		effect = {
+			4008 = {
+				move_capital_effect = yes
+			}
+
+			change_tag = BB0
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BB0
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			set_country_flag = formed_great_britain_flag
+			if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = GBR_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	british_nation_diplomatically = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { exists = BB0 }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			OR = {
+				AND = {
+					tag = BA1
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							BA3 = {	is_subject_of = BA1	}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							BA3 = { NOT = { num_of_cities = 15 } } #Keep this number the same as in allow
+						}
+					}
+				}
+				AND = {
+					tag = BA3
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							BA1 = {	is_subject_of = BA3	}
+							#This overlaps with allow for AI, is meant to negate do_not_integrate
+							BA1 = { NOT = { num_of_cities = 41 } } #Keep this number the same as in allow
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			legitimacy = 100
+			OR = {
+				AND = {
+					tag = BA1
+					OR = {
+						BA3 = {	junior_union_with = BA1	}
+						BA3 = {	is_subject_of = BA1	}
+					}
+					BA3 = { NOT = { num_of_cities = 15 } } #Keep this number the same as in potential
+				}
+				AND = {
+					tag = BA3
+					OR = {
+						BA1 = {	junior_union_with = BA3	}
+						BA1 = {	is_subject_of = BA3	}
+					}
+					BA1 = { NOT = { num_of_cities = 41 } } #Keep this number the same as in potential
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					tag = BA1
+					BA3 = {
+						ai = yes
+					}
+				}
+				inherit = BA3
+			}
+			if = {
+				limit = {
+					tag = BA3
+					BA1 = {
+						ai = yes
+					}
+				}
+				inherit = BA1
+			}
+			change_tag = BB0
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BB0
+			}
+			add_prestige = 25
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = GBR_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 200
+	}
+	
+}

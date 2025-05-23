@@ -1,0 +1,15 @@
+#4363 - Argyll
+
+owner = BB7
+controller = BB7
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+capital = "Loch Awe"
+is_city = yes
+add_core = BA3
+add_core = BB7

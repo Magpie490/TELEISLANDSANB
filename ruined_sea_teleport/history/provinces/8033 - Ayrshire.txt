@@ -1,0 +1,20 @@
+#249 - Ayrshire
+
+latent_trade_goods = {
+	coal
+}
+
+owner = BA3
+controller = BA3
+culture = scottish
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = wool
+base_manpower = 2
+capital = "Ayr"
+is_city = yes
+add_core = BA3
+
+center_of_trade = 1

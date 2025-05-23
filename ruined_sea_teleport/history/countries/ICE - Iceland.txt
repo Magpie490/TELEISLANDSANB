@@ -1,0 +1,6 @@
+government = republic
+primary_culture = icelandic
+religion = catholic
+technology_group = tech_cannorian
+capital = 8067 #Rejkyavik
+setup_vision = yes

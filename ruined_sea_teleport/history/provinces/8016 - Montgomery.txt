@@ -1,0 +1,16 @@
+#4366 - Montgomery + Radnor
+
+owner = BA8
+controller = BA8
+culture = welsh
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1
+trade_goods = iron
+base_manpower = 1
+capital = "Montgomery"
+fort_15th = yes
+is_city = yes
+add_core = BA1
+add_core = BA8 

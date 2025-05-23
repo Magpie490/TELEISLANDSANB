@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = tanistry_reform
+government_rank = 1
+technology_group = tech_cannorian
+primary_culture = irish
+religion = catholic
+capital = 8049	# Offaly
+setup_vision = yes
+1000.1.2 = { set_country_flag = avoids_colonist_settlement_growth }
+
+1425.1.1 = {
+	monarch = {
+		name = "An Calbhach"
+		dynasty = "Ua Conchobhair Failghe"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

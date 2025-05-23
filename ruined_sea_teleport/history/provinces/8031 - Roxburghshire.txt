@@ -1,0 +1,14 @@
+#4361 - Central + East March (Roxburghshire+Berwickshire+Selkirkshire)
+
+owner = BA3
+controller = BA3
+culture = scottish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = damestear
+base_manpower = 1
+capital = "Jedburgh"
+is_city = yes
+add_core = BA3

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = tech_cannorian
+religion = catholic
+primary_culture = sardinian
+capital = 8057	# Bastia
+setup_vision = yes
+
+1416.4.15 = {
+	monarch = {
+		name = "Sampierro"
+		dynasty = "Corso"
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+}
+

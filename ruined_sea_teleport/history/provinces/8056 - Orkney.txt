@@ -1,0 +1,14 @@
+#ORKNEY
+
+owner = BA3 #SCOTLAND
+controller = BA3
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+capital = "Orkney"
+is_city = yes
+add_core = BA3
