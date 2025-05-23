@@ -3,6 +3,6 @@ add_government_reform = polynesian_tribe
 government_rank = 1
 primary_culture = maori
 religion = animism
-technology_group = tech_cannorian
+technology_group = western
 capital = 8083 #Moana Te-a-Toi
 setup_vision = yes

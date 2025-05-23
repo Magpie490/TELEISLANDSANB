@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = reformed_byzantine_monarchy_reform
 government_rank = 1
-technology_group = tech_cannorian
+technology_group = western
 primary_culture = greek
 religion = orthodox
 capital = 8062	# Heraklion

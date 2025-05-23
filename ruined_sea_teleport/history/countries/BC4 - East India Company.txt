@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = trade_company_government
 mercantilism = 25
-technology_group = tech_cannorian
+technology_group = western
 primary_culture = english
 religion = catholic
 capital = 4476 #Nadia (Kolkata, Fort William)

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = highland_scottish
 religion = catholic
-technology_group = tech_cannorian
+technology_group = western
 capital = 8038 # Inverness
 setup_vision = yes
 

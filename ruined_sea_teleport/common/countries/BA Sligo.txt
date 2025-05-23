@@ -17,23 +17,20 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	cannorian_1_medieval_infantry
-	cannorian_1_medieval_knights
-	cannorian_5_men_at_arms
-	cannorian_9_adventurer_band
-	cannorian_10_gun_knights
-	cannorian_12_thorn_formation
-	cannorian_14_outriders
-	cannorian_15_volley_infantry
-	cannorian_18_reformed_outriders
-	cannorian_19_thorn_formation2
-	cannorian_23_dragoons
-	cannorian_23_line_infantry
-	cannorian_26_carabiners
-	cannorian_26_dovecoat_infantry
-	cannorian_28_impulse_infantry
-	cannorian_28_cuirassier
-	cannorian_30_drill_infantry
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
 
 monarch_names = {

@@ -3,7 +3,7 @@ add_government_reform = indep_daimyo
 government_rank = 1
 primary_culture = kyushuan
 religion = shinto
-technology_group = tech_cannorian
+technology_group = western
 capital = 8071	# Hyuga
 setup_vision = yes
 
