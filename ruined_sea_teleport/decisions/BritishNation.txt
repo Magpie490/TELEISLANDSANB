@@ -37,10 +37,10 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 4008		# London
-				province_id = 4012		# Oxfordshire
-				province_id = 4687		# Lothian
-				province_id = 4690		# Aberdeen
+				province_id = 8008		# London
+				province_id = 8012		# Oxfordshire
+				province_id = 8037		# Lothian
+				province_id = 8034		# Aberdeen
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -51,16 +51,16 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			owns_core_province = 4012		# Oxfordshire
-			owns_core_province = 4687		# Lothian
-			owns_core_province = 4690		# Aberdeen
-			owns_core_province = 4008		# London
-			4008 = {							# London
+			owns_core_province = 8012		# Oxfordshire
+			owns_core_province = 8037		# Lothian
+			owns_core_province = 8034		# Aberdeen
+			owns_core_province = 8008		# London
+			8008 = {							# London
 				is_state = yes
 			}
 		}
 		effect = {
-			4008 = {
+			8008 = {
 				move_capital_effect = yes
 			}
 

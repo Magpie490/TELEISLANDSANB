@@ -34,10 +34,11 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = munster_area
-				area = connacht_area
-				area = leinster_area
-				area = ulster_area
+				area = meath_area
+				area = leinster2_area
+				area = munster2_area
+				area = connacht2_area
+				area = ulster2_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -45,19 +46,23 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
-			munster_area = {
+			meath_area = {
 				type = all
 				owned_by = ROOT
 			}
-			connacht_area = {
+			leinster2_area = {
 				type = all
 				owned_by = ROOT
 			}
-			leinster_area = {
+			munster2_area = {
 				type = all
 				owned_by = ROOT
 			}
-			ulster_area = {
+			connacht2_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ulster2_area = {
 				type = all
 				owned_by = ROOT
 			}
