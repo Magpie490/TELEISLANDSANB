@@ -13,3 +13,4 @@ capital = "Penryn"
 is_city = yes
 add_core = BA1
 add_core = BA8
+add_core = BC7

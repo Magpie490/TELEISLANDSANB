@@ -16,4 +16,4 @@ base_manpower = 1
 capital = "Swansea"
 is_city = yes
 add_core = BA1
-add_core = BC2
+add_core = BA8
